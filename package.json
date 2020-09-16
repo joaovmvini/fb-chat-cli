@@ -1,0 +1,14 @@
+{
+  "name": "fb-chat-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify ./src"
+  },
+  "dependencies": {
+    "@types/node": "^14.10.2",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.2"
+  }
+}
